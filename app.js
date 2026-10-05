@@ -1,4 +1,4 @@
-import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm";
+﻿import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm";
 
 
 // =========================================
@@ -2413,7 +2413,7 @@ function createFavoriteCard(favorite) {
         "favorite-search";
 
     searchLink.href =
-        `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(favorite.name)}`;
+        `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(favorite.name + " porn")}`;
 
     searchLink.target =
         "_blank";
