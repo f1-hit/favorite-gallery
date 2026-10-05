@@ -2,7 +2,7 @@
 
 
 /* =========================================================
-   MY FAVORITES — EDITORIAL DARK GALLERY
+   MY FAVORITES ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â EDITORIAL DARK GALLERY
    ========================================================= */
 
 
@@ -167,7 +167,83 @@ body {
 
     gap: 2px;
 }
+.sort-options {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
 
+
+.sort-option {
+    width: 38px;
+    height: 38px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid transparent;
+    border-radius: 50%;
+
+    background: transparent;
+
+    color: #a9a6a0;
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    line-height: 1;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+
+.sort-option:hover {
+    background:
+        rgba(255, 255, 255, 0.055);
+
+    border-color:
+        rgba(255, 255, 255, 0.075);
+
+    color:
+        #ffffff;
+}
+
+
+.sort-option:active {
+    transform:
+        scale(0.94);
+}
+.sort-option.active {
+    background:
+        rgba(255, 255, 255, 0.09);
+
+    border-color:
+        rgba(255, 255, 255, 0.12);
+
+    color:
+        #ffffff;
+}
+
+
+#alphabetical-button {
+    font-size: 14px;
+}
+
+
+#rating-sort-button {
+    font-size: 17px;
+}
 
 .icon-button {
     width: 40px;
@@ -376,49 +452,107 @@ body {
    FAVORITE NAME
    ========================================================= */
 
-.favorite-name {
+.favorite-meta {
     position: absolute;
-
     left: 0;
-
     right: 0;
-
     bottom: 0;
-
     z-index: 2;
 
-    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 12px;
 
-    padding:
-        42px 16px 15px;
+    padding: 42px 16px 14px;
 
-    color:
-        #f3f1ed;
+    pointer-events: none;
+}
+
+
+.favorite-search {
+    min-width: 0;
+    flex: 1;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    color: #f3f1ed;
 
     font-family:
         "Manrope",
         sans-serif;
 
-    font-size:
-        14px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
 
-    font-weight:
-        600;
+    letter-spacing: -0.012em;
 
-    line-height:
-        1.35;
+    text-decoration: none;
 
-    letter-spacing:
-        -0.012em;
+    pointer-events: auto;
+}
 
-    white-space:
-        nowrap;
 
-    overflow:
-        hidden;
+.favorite-search:hover {
+    color: #ffffff;
+}
 
-    text-overflow:
-        ellipsis;
+
+.favorite-search-icon {
+    width: 16px;
+    height: 16px;
+    flex: 0 0 16px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.favorite-search-icon svg {
+    width: 100%;
+    height: 100%;
+
+    fill: none;
+
+    stroke: currentColor;
+
+    stroke-width: 2;
+
+    stroke-linecap: round;
+}
+
+
+.favorite-search > span:last-child {
+    min-width: 0;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+
+    text-overflow: ellipsis;
+}
+
+
+.favorite-rating {
+    flex: 0 0 auto;
+
+    color: #f3f1ed;
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    line-height: 1;
+
+    white-space: nowrap;
 }
 
 
@@ -467,35 +601,6 @@ body {
     }
 }
 
-
-@media (max-width: 940px) {
-
-    .gallery {
-        grid-template-columns:
-            repeat(
-                3,
-                minmax(0, 1fr)
-            );
-
-        gap:
-            17px;
-    }
-
-    .gallery-container {
-        padding-top:
-            32px;
-    }
-
-    .header-inner {
-        width:
-            calc(100% - 36px);
-    }
-}
-
-
-/* =========================================================
-   MOBILE
-   ========================================================= */
 
 @media (max-width: 650px) {
 
@@ -559,12 +664,21 @@ body {
     }
 
 
-    .favorite-name {
+    .favorite-meta {
         padding:
             36px 11px 12px;
+    }
 
+
+    .favorite-search {
         font-size:
             13px;
+    }
+
+
+    .favorite-rating {
+        font-size:
+            12px;
     }
 }
 
@@ -577,12 +691,47 @@ body {
     }
 
 
-    .favorite-name {
-        font-size:
-            12px;
-
+    .favorite-meta {
         padding:
             32px 9px 10px;
+    }
+
+
+    .favorite-search {
+        font-size:
+            12px;
+    }
+
+
+    .favorite-rating {
+        font-size:
+            11px;
+    }
+}
+
+@media (max-width: 390px) {
+
+    .gallery {
+        gap:
+            9px;
+    }
+
+
+    .favorite-meta {
+        padding:
+            32px 9px 10px;
+    }
+
+
+    .favorite-search {
+        font-size:
+            12px;
+    }
+
+
+    .favorite-rating {
+        font-size:
+            11px;
     }
 }
 
@@ -1891,4 +2040,356 @@ a:focus-visible {
         animation-iteration-count:
             1 !important;
     }
+}
+
+.sort-open {
+    background:
+        rgba(255, 255, 255, 0.07);
+
+    border-color:
+        rgba(255, 255, 255, 0.10);
+
+    color:
+        #ffffff;
+}
+.icon-button svg {
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+
+.card-action svg {
+    width: 16px;
+    height: 16px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* SAFE CARD ICON STYLES */
+
+.card-action svg {
+    width: 16px;
+    height: 16px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    display: block;
+}
+
+.video-badge.has-videos {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.video-badge.has-videos svg {
+    width: 12px;
+    height: 12px;
+    fill: currentColor;
+    stroke: none;
+    display: block;
+}
+
+.favorite-rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.favorite-rating svg {
+    width: 13px;
+    height: 13px;
+    fill: currentColor;
+    stroke: none;
+    display: block;
+    flex: 0 0 auto;
+}
+
+/* Hide Saved Sites while the Sort menu is open */
+.header-actions:has(#sort-options:not(.hidden)) #bookmark-button {
+    display: none !important;
+}
+
+/* EXPANDING SORT MENU */
+
+#sort-button {
+    position: relative;
+    overflow: hidden;
+}
+
+.sort-button-icon {
+    position: absolute;
+    inset: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    transition:
+        opacity 0.22s ease,
+        transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.sort-button-icon svg {
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.sort-icon {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+}
+
+.close-icon {
+    opacity: 0;
+    transform: rotate(-70deg) scale(0.65);
+}
+
+#sort-button.sort-open .sort-icon {
+    opacity: 0;
+    transform: rotate(70deg) scale(0.65);
+}
+
+#sort-button.sort-open .close-icon {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+}
+
+
+/* Sort menu capsule */
+
+.sort-options {
+    flex: 0 0 auto;
+    overflow: hidden;
+
+    max-width: 0;
+    padding: 0;
+
+    border:
+        1px solid
+        transparent;
+
+    border-radius: 22px;
+
+    background:
+        rgba(18, 18, 18, 0.86);
+
+    opacity: 0;
+    transform:
+        translateX(10px)
+        scale(0.92);
+
+    pointer-events: none;
+
+    transition:
+        max-width 0.32s cubic-bezier(0.2, 0.8, 0.2, 1),
+        padding 0.32s ease,
+        border-color 0.25s ease,
+        opacity 0.22s ease,
+        transform 0.32s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+
+/*
+    The hidden class normally uses display:none.
+    We intentionally keep the sort capsule in the layout
+    so it can animate open and closed.
+*/
+.sort-options.hidden {
+    display: flex !important;
+}
+
+.sort-options:not(.hidden) {
+    max-width: 130px;
+    padding: 2px;
+
+    border-color:
+        rgba(255, 255, 255, 0.10);
+
+    opacity: 1;
+
+    transform:
+        translateX(0)
+        scale(1);
+
+    pointer-events: auto;
+}
+
+.sort-options .sort-option {
+    flex: 0 0 38px;
+
+    opacity: 0;
+    transform:
+        scale(0.72)
+        translateX(6px);
+
+    transition:
+        opacity 0.20s ease,
+        transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1),
+        background 0.2s ease,
+        border-color 0.2s ease,
+        color 0.2s ease;
+}
+
+.sort-options:not(.hidden) .sort-option {
+    opacity: 1;
+    transform:
+        scale(1)
+        translateX(0);
+}
+
+.sort-options:not(.hidden) .sort-option:nth-child(1) {
+    transition-delay: 0.03s;
+}
+
+.sort-options:not(.hidden) .sort-option:nth-child(2) {
+    transition-delay: 0.07s;
+}
+
+.sort-options:not(.hidden) .sort-option:nth-child(3) {
+    transition-delay: 0.11s;
+}
+
+/* SAVED ITEM ACTION ICONS */
+
+.video-edit-button,
+.video-delete-button {
+    width: 32px;
+    height: 32px;
+
+    padding: 0;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-edit-button svg,
+.video-delete-button svg {
+    width: 15px;
+    height: 15px;
+
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+
+    display: block;
+}
+
+.video-edit-button:hover,
+.video-delete-button:hover {
+    color: #ffffff;
+}
+
+.video-delete-button:hover {
+    color: #ffaaaa;
+}
+
+/* COMPACT ITEMS WITHOUT THUMBNAILS */
+
+.video-item:not(:has(.video-item-thumbnail)) {
+    align-self: start;
+}
+
+/* FIXED SORT CONTROL POSITION */
+
+.sort-control {
+    position: relative;
+
+    width: 40px;
+    height: 40px;
+
+    flex: 0 0 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Sort menu expands LEFT of the fixed Sort/X button */
+
+.sort-control .sort-options {
+    position: absolute;
+
+    top: 50%;
+    right: 42px;
+
+    margin: 0;
+
+    transform:
+        translateY(-50%)
+        translateX(10px)
+        scale(0.92);
+
+    transform-origin: right center;
+}
+
+
+/* Closed */
+
+.sort-control .sort-options.hidden {
+    display: flex !important;
+
+    pointer-events: none;
+
+    opacity: 0;
+}
+
+
+/* Open */
+
+.sort-control .sort-options:not(.hidden) {
+    transform:
+        translateY(-50%)
+        translateX(0)
+        scale(1);
+
+    opacity: 1;
+}
+
+
+/* Keep the Sort/X button fixed */
+
+.sort-control #sort-button {
+    position: relative;
+    z-index: 5;
+}
+
+
+/* Bookmark sits to the LEFT of the fixed Sort control */
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+
+/* Saved Sites disappears while the Sort capsule is open */
+
+.header-actions:has(#sort-options:not(.hidden)) #bookmark-button {
+    display: none !important;
+}
+
+/* REMOVE EMPTY SORT SPACE IN MANAGE MODE */
+
+.header-actions:has(#sort-button.hidden) .sort-control {
+    display: none !important;
 }
